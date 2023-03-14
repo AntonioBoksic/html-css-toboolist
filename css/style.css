@@ -3,13 +3,16 @@
 *{
     margin: 0;
     padding: 0;
-
 }
+
+/* body rules */
+
 
 /* header rules  */
 
 header {
     line-height: 80px;
+    background-color: white;
     
 }
 
@@ -22,3 +25,77 @@ header {
     font-weight: 900;
     font-size: 38px;
 }
+
+/* main rules  */
+
+main {
+    size: 100%;
+    background-color: grey;
+}
+
+/* container rules */
+
+#container  {
+    background-color: white;
+    margin: 5% 16% 1% 16%;
+    
+}
+
+
+.buttons-section, .tasks-section{
+padding-left: 7%;
+}
+
+/* buttons rules  */
+
+.buttons-section {
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#button-1 {
+    background-color: #47adf1;
+    border-width: 1px;
+    border-color: white ;
+    color: white;
+    border-radius: 10%;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+#button-2 {
+    
+    background-color: white;
+    border-width: 1px;
+    border-color: lightgrey ;
+    color: lightgrey;
+    border-radius: 10%;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+
+/* tasks rules  */
+
+.task-category {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#check {
+
+   
+    color: green;
+   
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 4px;
+   
+}
+
