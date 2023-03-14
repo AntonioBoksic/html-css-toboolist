@@ -7,6 +7,10 @@
 
 /* body rules */
 
+body {
+    width: 100%;
+    height: 100%;
+}
 
 
 /* header rules  */
@@ -31,7 +35,8 @@ header {
 /* main rules  */
 
 main {
-    size: 100%;
+    width: 100%;
+    height: 100%;
     background-color: grey;
 }
 
