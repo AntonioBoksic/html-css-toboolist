@@ -8,6 +8,7 @@
 /* body rules */
 
 
+
 /* header rules  */
 
 header {
@@ -64,7 +65,7 @@ padding-left: 7%;
     border-width: 1px;
     border-color: white ;
     color: white;
-    border-radius: 10%;
+    border-radius: 15%;
     padding: 5px 10px 5px 10px;
     font-size: 12px;
 }
@@ -75,7 +76,7 @@ padding-left: 7%;
     border-width: 1px;
     border-color: lightgrey ;
     color: lightgrey;
-    border-radius: 10%;
+    border-radius: 15%;
     padding: 5px 10px 5px 10px;
     font-size: 12px;
 }
@@ -107,20 +108,32 @@ padding-left: 7%;
     margin-bottom: 5px;
 }
 
-#check {
-
-   
+.task-name.check::before {
+    content: "\2713";
+    display: inline-block;
+    font-size: 11px;
     color: green;
-   
     border: 1px solid green;
     border-radius: 50%;
     width: 14px;
     height: 14px;
     display: inline-block;
     text-align: center;
-    padding-bottom: 4px;
-   
 }
+
+.task-name.x::before {
+    content: "\2715";
+    display: inline-block;
+    font-size: 11px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
+}
+
 
 .id {
     display: inline-block;
