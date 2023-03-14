@@ -18,6 +18,7 @@ header {
 
 #logo {
     vertical-align: middle;
+    padding-left: 20px;
 }
 
 #title{
@@ -38,11 +39,14 @@ main {
 #container  {
     background-color: white;
     margin: 5% 16% 1% 16%;
+    border-radius: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
 
-.buttons-section, .tasks-section{
+.buttons-section, .task-section{
 padding-left: 7%;
 }
 
@@ -79,9 +83,28 @@ padding-left: 7%;
 
 /* tasks rules  */
 
-.task-category {
+.task-priority {
     font-weight: 900;
     font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.task-priority::before {
+    content: '\25bc';
+    display: inline-block;
+    font-size: 11px;
+}
+
+/* .task-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+.task-line {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #check {
@@ -99,3 +122,33 @@ padding-left: 7%;
    
 }
 
+.id {
+    display: inline-block;
+    color: white;
+    border-radius: 15%;
+    padding: 2px 4px;
+}
+/* colori id  */
+.id.editorial {
+    background-color: #45abea;
+}
+
+.id.q1goals {
+    background-color: #9c72e4;
+}
+
+.id.recruiting {
+    background-color: #64c0a9;
+}
+
+.id.mobile {
+    background-color: #f29d33;
+}
+
+.id.website {
+    background-color: #d863a1;
+}
+
+.id.sales {
+    background-color: #b0c926;
+}
